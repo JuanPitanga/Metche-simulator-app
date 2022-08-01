@@ -7,7 +7,4 @@
     <string name="cd_away_team">Imagem do time visitante.</string>
 
     <string name="error_api">Erro inesperado.</string>
-    <string name="tx_homeTeam">Imagem do time da casa</string>
-    <string name="Versus">X</string>
-    <string name="txt_imagemdotimevisistante">Imagem do time da visitante</string>
 </resources>
