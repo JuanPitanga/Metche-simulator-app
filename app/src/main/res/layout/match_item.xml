@@ -15,10 +15,11 @@
             android:layout_height="120dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:contentDescription="@string/cd_home_team"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars"
-            android:contentDescription="@string/tx_homeTeam" />
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/tvHomeTeamName"
@@ -60,13 +61,14 @@
             android:layout_height="120dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
+            android:contentDescription="@string/txt_imagemdotimevisistante"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:srcCompat="@tools:sample/avatars"
-            android:contentDescription="@string/txt_imagemdotimevisistante" />
+            tools:ignore="ImageContrastCheck,ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
-            android:id="@+id/txAwayTeamName"
+            android:id="@+id/tvAwayTeamName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
